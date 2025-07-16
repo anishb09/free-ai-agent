@@ -1,0 +1,27 @@
+# Core dependencies
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+rich>=13.0.0
+click>=8.0.0
+aiohttp>=3.8.0
+
+# Optional paid API dependencies
+openai>=1.0.0
+anthropic>=0.25.0
+
+# Optional local/free model dependencies
+transformers>=4.30.0
+torch>=2.0.0
+tiktoken>=0.5.0
+
+# Development dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Optional advanced features
+chromadb>=0.4.0
+langchain>=0.1.0
